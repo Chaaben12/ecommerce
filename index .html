@@ -171,7 +171,7 @@
                 </div>
             `).join('');
 
-            // Initialize Swiper for each product
+           
             products.forEach(product => {
                 new Swiper(`.product-swiper-${product.id}`, {
                     loop: true,
@@ -244,7 +244,7 @@
             }
         }
 
-        // Show welcome page for 3 seconds then switch to products
+        
         setTimeout(() => {
             document.getElementById('welcome-page').style.display = 'none';
             document.getElementById('products-page').style.display = 'block';
